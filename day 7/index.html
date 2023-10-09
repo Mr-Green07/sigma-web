@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input</title>
+</head>
+<body>
+    <h1>fill form to pply for this course</h1>
+    <form action="post">
+        <div>
+            <label for="username">enter your username</label>
+            <input type="text" name="username" id="username" placeholder="enter your username" autofocus>
+
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+            
+            <label for="subscribe">subscribe to newsletter</label><br>
+            <input type="checkbox" name="daily" id="daily">
+            <label for="daily">daily</label>
+        </div>
+        <div>
+            <div>
+                <label for="comment">write your comment</label>
+            </div>
+            <textarea name="comment here" id="comment" cols="30" rows="10">enter your text here</textarea>
+        </div>
+        <div>
+            <select name="car" id="expensive brands of world">
+                <option value="volvo">Volvo</option>
+                <option value="mahindra">mahindra</option>
+                <option value="BMW">BMW</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
